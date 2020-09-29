@@ -8,6 +8,7 @@ import os, sys
 importlib.reload(sys)
 
 app = Flask(__name__)
+
 #必须放在static下，因为Dplayer的路径是这个
 video_dir = 'static/videos'
 suffix=['avi','rmvb' ,'mpg' ,'mpeg' ,'mpe' ,'wmv' ,'mp4' ,'mkv']
